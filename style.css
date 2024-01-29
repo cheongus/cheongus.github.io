@@ -1,7 +1,13 @@
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+  }
+
+  #gap {
+    flex-grow: 1;
   }
   
   /* Navbar links */
@@ -14,6 +20,11 @@
     text-decoration: none;
   }
   
+  #navbar a.rightside {
+    background-color: #550132;
+    color: white;
+  }
+
   /* Page content */
   .content {
     padding: 16px;
