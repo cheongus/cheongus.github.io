@@ -19,11 +19,6 @@
     padding: 14px;
     text-decoration: none;
   }
-  
-  #navbar a.rightside {
-    background-color: #550132;
-    color: white;
-  }
 
   /* Page content */
   .content {
@@ -67,7 +62,7 @@
   
     section:nth-of-type(1) {
       background-color: #00CCF5;
-      background-image:url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350");
+      background-image:url("images/background.svg");
     }
 
     section:nth-of-type(2) {
