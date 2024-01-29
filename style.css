@@ -49,12 +49,16 @@
     display: table;
     margin: 0;
     max-width: none;
-    background-color: #00CCF5;
+    background-color: #373B44;
     height: 100vh;
-      background-image:url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350");
       background-repeat:no-repeat;
     background-size:cover;}
   
+    section:nth-of-type(1) {
+      background-color: #00CCF5;
+      background-image:url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&h=350");
+    }
+
     section:nth-of-type(2) {
       background-color: #FFCF00;
     }
