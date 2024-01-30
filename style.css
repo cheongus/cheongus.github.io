@@ -14,7 +14,7 @@
   #navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #373B44;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -85,22 +85,33 @@
   }
   
   h1 {
-    font-size: 3em;
+    font-size: 6em;
     display: block;
     color: white;
-    font-weight: 300;
+    font-weight: 500;
+    font-family: "Comic Sans MS", sans-serif;
   }
+
+  #name{
+    color: #373B44;
+    letter-spacing: 5px;
+    line-height: 0.5;
+    font-weight: 900;
+  }
+
   
   p {
     font-size: 1.5em;
     font-weight: 500;
-    color: #C3CAD9;
+    color: #373B44;
+    font-family: "Comic Sans MS", sans-serif;
   }
   
   a {
     font-weight: 700;
     color: #373B44;
     position: relative;
+    font-family: "Comic Sans MS", sans-serif;
     
     &:hover{ 
       opacity: 0.8;
