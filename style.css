@@ -18,6 +18,9 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    letter-spacing: 2px;
+    font-family: Helvetica, sans-serif;
+    font-weight:bold;
   }
 
   /* Page content */
