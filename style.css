@@ -19,8 +19,9 @@
     padding: 14px;
     text-decoration: none;
     letter-spacing: 2px;
-    font-family: Helvetica, sans-serif;
-    font-weight:bold;
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
   }
 
   /* Page content */
@@ -40,16 +41,15 @@
     padding-top: 60px;
   }
 
-
-
   * {
     box-sizing: border-box; 
   }
   
   body {
     margin: 0; 
-    font-weight: 500;
-    font-family: 'HelveticaNeue';
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
   
   section {
@@ -59,13 +59,15 @@
     margin: 0;
     max-width: none;
     background-color: #373B44;
-    height: 100vh;
-      background-repeat:no-repeat;
-    background-size:cover;}
+    height: 105vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
   
     section:nth-of-type(1) {
       background-color: #00CCF5;
       background-image:url("images/background.svg");
+      height: 105vh;
     }
 
     section:nth-of-type(2) {
@@ -96,25 +98,32 @@
   }
 
   #name{
-    color: #373B44;
     letter-spacing: 5px;
     line-height: 0.5;
     font-weight: 900;
   }
 
-  
-  p {
-    font-size: 1.5em;
-    font-weight: 500;
+  h2 {
     color: #373B44;
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+  p {
+    color: #373B44;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
   }
   
   a {
     font-weight: 700;
-    color: #373B44;
+    color: white;
     position: relative;
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Comic Neue", sans-serif;
     
     &:hover{ 
       opacity: 0.8;
