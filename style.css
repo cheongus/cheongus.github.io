@@ -116,7 +116,7 @@
     font-family: "Comic Neue", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: large;
+    font-size: 1.5em;
   }
   
   a {
@@ -145,4 +145,10 @@
       font-weight: 500;
       text-decoration: none;
     }
+  }
+
+  img {
+    border-radius: 10px; /* Adjust as needed */
+    width: 600px; /* Adjust as needed */
+    height: auto; /* Keeps the aspect ratio */
   }
