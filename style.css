@@ -14,7 +14,7 @@
   #navbar a {
     float: left;
     display: block;
-    color: white;
+    color: #373B44;
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -92,7 +92,7 @@
   h1 {
     font-size: 6em;
     display: block;
-    color: white;
+    color: #373B44;
     font-weight: 500;
     font-family: "Comic Sans MS", sans-serif;
   }
@@ -101,6 +101,7 @@
     letter-spacing: 5px;
     line-height: 0.5;
     font-weight: 900;
+
   }
 
   h2 {
@@ -198,21 +199,21 @@
   border-style: solid;
 }
 
-.timeline ul li:nth-child(odd) div {
+.timeline ul li:nth-child(even) div {
   left: 45px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
+.timeline ul li:nth-child(even) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #ffffff transparent transparent;
 }
 
-.timeline ul li:nth-child(even) div {
+.timeline ul li:nth-child(odd) div {
   left: -439px;
 }
 
-.timeline ul li:nth-child(even) div::before {
+.timeline ul li:nth-child(odd) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #ffffff;
@@ -246,11 +247,11 @@ time {
   transition: all 0.5s ease-in-out;
 }
 
-.timeline ul li:nth-child(odd) div {
+.timeline ul li:nth-child(even) div {
   transform: translate3d(200px, 0, 0);
 }
 
-.timeline ul li:nth-child(even) div {
+.timeline ul li:nth-child(odd) div {
   transform: translate3d(-200px, 0, 0);
 }
 
