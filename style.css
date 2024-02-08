@@ -16,7 +16,7 @@
     display: block;
     color: #373B44;
     text-align: center;
-    padding: 14px;
+    padding: 10px;
     text-decoration: none;
     letter-spacing: 2px;
     font-family: "Comic Neue", cursive;
@@ -188,6 +188,7 @@
   bottom: 0;
   width: 400px;
   padding: 15px;
+  border-radius: 10px; /* Adjust as needed */
 }
 
 .timeline ul li div::before {
@@ -223,7 +224,7 @@ time {
   display: block;
   font-size: 1.3rem;
   margin-bottom: 8px;
-  color: #373B44;
+  color: white;
   font-family: "Comic Neue", cursive;
   font-weight: 700;
   font-style: italic;
