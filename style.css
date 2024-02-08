@@ -72,6 +72,12 @@
       background-color: #00CCF5;
       background-image:url("images/background.svg");
       height: 105vh;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
     section:nth-of-type(2) {
