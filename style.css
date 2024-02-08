@@ -1,5 +1,6 @@
 * {
   color: #ffffff
+  
 }
 
 /* Style the navbar */
@@ -248,7 +249,6 @@ time {
   font-style: italic;
 }
 
-
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -278,4 +278,83 @@ time {
   transform: none;
   visibility: visible;
   opacity: 1;
+}
+
+
+#cardview{
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container {
+    margin: auto;
+    padding: 2em;
+    max-width: 100rem;
+  }
+  
+  .flex {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  .flex > * {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    min-width: 15rem;
+    max-width: calc(12.5rem + 13vw);
+    background: #373B44;
+    border-radius: 10px;
+    overflow: hidden;
+    filter: drop-shadow(5px 5px 5px #373B44);
+    transition: transform 270ms ease;
+    position: relative;
+  }
+ 
+
+  .card:hover::before {
+    opacity: 1;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .card-body {
+    height: 200px;
+    padding: 1em 0;
+  }
+
+  p{
+    color: #ffffff;
+    font-family: "Comic Neue", cursive;
+    padding-inline: 0.5em;
+    margin-bottom: 0.5rem;
+  }
+
+  h2{
+    color: #ffffff;
+    font-family: "Comic Neue", cursive;
+    padding-inline: 0.5em;
+  }
 }
